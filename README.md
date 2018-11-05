@@ -1,7 +1,16 @@
 
-# The Geometric and Negative Binomial distribution
+# The Geometric and Negative Binomial Distributions - Lab
 
 ## Introduction
+
+In this lab, you'll practice your knowledge on the geometric and negative binomial distributions!
+
+## Objectives
+You will be able to:
+- Understand and explain the Negative Binomial Distribution and its uses
+- Understand and explain Geometric Distributions and their uses
+
+## Quick Recap
 
 Recall that the binomial distribution describes the probability of a success or a failure outcome in an experiment that is repeated multiple times.
 
@@ -75,7 +84,7 @@ print(prob)
 ```
 
     1.8554687500000146e-12
-    
+
 
 # 4. Product Failures take 2
 In many cases, a manufacturer might only test a sample of the products for defaults. Assuming 95% of the products do indeed work, what is the probability that in testing 20 units, that none will be defective?
@@ -104,7 +113,7 @@ print(prob_no_failures)
 ```
 
     0.35848592240854255
-    
+
 
 # 5. Consumer Profiling
 A previous sample showed that 70% of U.S. shoppers prefer to buy groceries in store as compared to online.  
@@ -118,7 +127,7 @@ print(prob)
 ```
 
     0.0017010000000000011
-    
+
 
 # 6. Consumer Profiling 2
 What is the probability that at least 6 people have to be interviewed before finding someone who prefers to buy groceries online? (Assuming the statistic is true.)
@@ -132,7 +141,7 @@ print(prob)
 ```
 
     0.16806999999999994
-    
+
 
 
 ```python
@@ -145,9 +154,8 @@ print(prob_no_online_groceries)
 ```
 
     0.16807000000000005
-    
 
 
-```python
-#Fun rounding errors noted on 4/6 conceptions ;) geeks unite! -Matt
-```
+## Summary
+
+Awesome, you've now learned about many use cases for the geometric and negative binomial distribution!
