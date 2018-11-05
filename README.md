@@ -1,16 +1,23 @@
 
-# The Geometric and Negative Binomial distribution
+# The Geometric and Negative Binomial Distributions - Lab
 
 ## Introduction
+
+In this lab, you'll practice your knowledge on the geometric and negative binomial distributions!
+
+## Objectives
+You will be able to:
+- Understand and explain the Negative Binomial Distribution and its uses
+- Understand and explain Geometric Distributions and their uses
+
+## Quick Recap
 
 Recall that the binomial distribution describes the probability of a success or a failure outcome in an experiment that is repeated multiple times.
 
 In fact, a binomial distribution describes a repeated bernoulli experiment. A bernoulli experiment can be seen as one trial where there is a known success rate $p$. Examples:
 - Rolling a dice once where success is defined as throwing a 5 or higher, the probability of success is 1/3.
-- Shooting at a basketball court where the success probability is 70%.
-- Flipping a fair coin, or an unfair coin where the probability is known.
-
-
+- Shooting at a basketball rink where the success probability is 70%.
+- etc.
 
 The binomial distribution then has 2 parameters: $n$ and $p$, where $n$ is the number of independent experiments.
 
@@ -40,7 +47,7 @@ To be more specific, the geometric distribution is the probability for which tri
 #Your answer here
 ```
 
-# 2. Geometric Function
+## 2. Geometric Function
 Now write a probability distribution function for a random variable y. The function should take in the probability, p of the success of an individual Bernoulli experiment. (In our previous coin flipping example, p=0.5.)
 
 
@@ -53,7 +60,7 @@ def geometric_dist(y,p):
     return prob
 ```
 
-# 3. Product Failures
+## 3. Product Failures
 Assume that the probability of a product working is 95%. Before shipping the products, the manufacturer is checking each product for defects. What is the probability that the 10th product checked is the first defective one found?
 
 
@@ -62,7 +69,7 @@ Assume that the probability of a product working is 95%. Before shipping the pro
 prob = 
 ```
 
-# 4. Product Failures take 2
+## 4. Product Failures take 2
 In many cases, a manufacturer might only test a sample of the products for defaults. Assuming 95% of the products do indeed work, what is the probability that in testing 20 units, that none will be defective?
 
 
@@ -71,7 +78,7 @@ In many cases, a manufacturer might only test a sample of the products for defau
 prob = 
 ```
 
-# 5. Consumer Profiling
+## 5. Consumer Profiling
 A previous sample showed that 70% of U.S. shoppers prefer to buy groceries in store as compared to online.  
 Calculate the probability that the 6th person interviewed is the first to prefer to buy groceries online.
 
@@ -81,7 +88,7 @@ Calculate the probability that the 6th person interviewed is the first to prefer
 prob = 
 ```
 
-# 6. Consumer Profiling 2
+## 6. Consumer Profiling 2
 What is the probability that at least 6 people have to be interviewed before finding someone who prefers to buy groceries online? (Assuming the statistic is true.)
 
 
@@ -89,3 +96,7 @@ What is the probability that at least 6 people have to be interviewed before fin
 #Code and answer here
 prob = 
 ```
+
+## Summary
+
+Awesome, you've now learned about many use cases for the geometric and negative binomial distribution!
